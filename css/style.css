@@ -109,7 +109,7 @@ main {
 }
 
 #main-pic {
-   background-image: url(/img/gary-bendig-6GMq7AGxNbE-unsplash.jpg);
+   background-image: url(../img/gary-bendig-6GMq7AGxNbE-unsplash.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    background-position: bottom left;
