@@ -1,0 +1,161 @@
+* {
+   box-sizing: border-box;
+}
+
+html {
+   font-size: 10px;
+   background-color: #242614;
+}
+
+caption {
+   font-size: 1.25rem;
+   font-style: italic;
+}
+
+body {
+   width: 70%;
+   margin: 0 auto;
+   position: relative;
+}
+
+
+h1 {
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 6rem;
+   font-weight: 600;
+   text-align: center;
+}
+
+h2 {
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 2.5rem;
+   line-height: 1.2;
+}
+
+h3 {
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 3rem;
+   text-align: center;
+   color: #f2f2f2;
+   margin-bottom: 2rem;
+}
+
+a, p {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 1.5rem;
+   color: #B4BF5E;
+   line-height: 2;
+   letter-spacing: 1px;
+   padding-bottom: 2.5rem;
+}
+
+p {
+   text-indent: 2rem;
+}
+
+
+/* NAV */
+nav {
+   width: 100%;
+   height: 3rem;
+   display: grid;
+   grid-template-columns: repeat(10, 1fr);
+   margin: 0 auto;
+   top: -1rem;
+   position: absolute;
+}
+
+nav a {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align: center;
+   text-decoration: none;
+   font-size: 1.25rem;
+   background-color: dimgrey;
+   color: white;
+   padding: 2rem 0;
+}
+
+
+/* Main Picture */
+#main-pic-box {
+   width: 100%;
+   height: 70rem;
+   display: grid;
+   grid-template-columns: 35rem 1fr;
+   grid-template-rows: 10rem 12rem 40rem;
+   margin: 2rem auto 6rem;
+}
+
+#main-pic {
+   background-image: url(/img/gary-bendig-6GMq7AGxNbE-unsplash.jpg);
+   background-size: cover;
+   background-position: top right;
+   grid-area: 1 / 1 / 3 / 4;
+   height: 70rem;
+   border-radius: 2rem;
+   box-shadow: 0 0 10px black;
+}
+
+#photo-credit {
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 1rem;
+   font-style: italic;
+   color: #f2f2f2;
+   text-align: right;
+   text-decoration: none;
+   margin: 2rem;
+   grid-area: 5 / 2 / 5 / 4;
+   padding: 0.25rem 1rem;
+   background-color: rgba(36, 38, 19, 0.75);
+   justify-self: flex-end;
+   align-self: center;
+   z-index: 1;
+}
+
+#main-pic-box h1 {
+   grid-area: 2 / 1 / 3 / 2;
+   text-align: left;
+   margin-left: 3rem;
+}
+
+#main-pic-box h2 {
+   grid-area: 3 / 1 / 4 / 2;
+   margin-left: 3rem;
+   margin-top: 4rem;
+   text-align: left;
+}
+
+
+/* ARTICLE */
+article {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+   grid-gap: 3rem;
+   
+}
+
+section {
+   background-color: #242614;
+   border-radius: 2rem;
+   padding: 3rem;
+   box-shadow: 0 0 10px black, inset 0 0 2px #f2f2f2;
+}
+
+section h3 {
+   margin-bottom: 3rem;
+}
+
+
+/* Color Theme Swatches in Hex */
+.wilderness-landscape-with-green-vegetation-1-hex { color: #485922; }
+.wilderness-landscape-with-green-vegetation-2-hex { color: #798C35; }
+.wilderness-landscape-with-green-vegetation-3-hex { color: #B4BF5E; }
+.wilderness-landscape-with-green-vegetation-4-hex { color: #242614; }
+.wilderness-landscape-with-green-vegetation-5-hex { color: #F2F2F2; }
+
+/* Color Theme Swatches in RGBA */
+.wilderness-landscape-with-green-vegetation-1-rgba { color: rgba(71, 89, 33, 1); }
+.wilderness-landscape-with-green-vegetation-2-rgba { color: rgba(121, 140, 53, 1); }
+.wilderness-landscape-with-green-vegetation-3-rgba { color: rgba(179, 191, 93, 1); }
+.wilderness-landscape-with-green-vegetation-4-rgba { color: rgba(36, 38, 19, 1); }
+.wilderness-landscape-with-green-vegetation-5-rgba { color: rgba(242, 242, 242, 1); }
