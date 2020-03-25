@@ -155,8 +155,7 @@ article {
    margin: 0 auto;
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
-   grid-gap: 3rem;
-   
+   grid-gap: 3rem;  
 }
 
 section {
@@ -298,18 +297,15 @@ footer a {
    }
 
    #main-pic-box {
-      height: 105rem;
+      height: auto;
       display: grid;
       grid-template-columns: none;
-      grid-template-rows: 61rem 4rem 14rem 30rem;
+      grid-template-rows: 61rem 4rem auto auto;
+      margin-bottom: 5rem;
    }   
 
-   .photo-credit {
-      grid-row: 2 / 3;
-   }
-
    #main-pic-box h1 {
-      margin: 0 10%;
+      margin: 2rem 10%;
       text-align: center;
       grid-row: 3 / 4;
    }
@@ -320,8 +316,19 @@ footer a {
       text-align: center;
       grid-row: 4 / 5;
    }
+   
+   article {
+      width: 100%;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+      grid-gap: 3rem;  
+   }
 
-
+   .photo-credit {
+      grid-row: 2 / 3;
+   }
+   
 
 }
 
