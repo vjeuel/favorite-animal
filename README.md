@@ -1,3 +1,5 @@
+https://vjeuel.github.io/favorite-animal/
+
 # Activity 6 - GitHub Pages Project Webpage
 
 In this activity you'll practice creating github pages with projects. You'll build a website about your favorite type of animal!
